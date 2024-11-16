@@ -63,7 +63,7 @@ Os comandos para o commit são esses:
 git add .
 ```
 ```
-git commit - m (nome do algoritmo)
+git commit - m "nome do algoritmo"
 ```
 ```
 git push 
