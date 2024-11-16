@@ -1,7 +1,7 @@
 public class Main {
 
         public static void main(String[] args) {
-            
+
             //Mudar o tamanho do vetor aqui (10.000, 50.000 ou 100.000)
             int[] vetor = new int[100000];
             
@@ -15,16 +15,22 @@ public class Main {
       
             int aux;
 
-            //Início so algoritmo do teste
+            //Início do algoritmo do teste
             
-            for(int i = 0; i < vetor.length; i++){ 
-                for(int j = 0; j < vetor.length - 1 ; j++){ 
-                    if (vetor[j] > vetor[j+1]){
-                        aux = vetor[j];
-                        vetor[j] = vetor[j+1];
-                        vetor[j+1] = aux;
+            int n = 1;
+            boolean trocou = true;
+            
+            while (n <= vetor.length && trocou) {
+                trocou = false; // Reinicia a flag para verificar se houve troca
+                for (int i = 0; i < vetor.length - n; i++) {
+                    if (vetor[i] < vetor[i + 1]) { // Alterado para ordenar de forma decrescente
+                        aux = vetor[i];
+                        vetor[i] = vetor[i + 1];
+                        vetor[i + 1] = aux;
+                        trocou = true; // Marca que houve troca
                     }
                 }
+                n++;
             }
 
             //Fim do algoritmo do teste
