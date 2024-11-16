@@ -19,6 +19,7 @@ A configuração do Codespace é a padrão, não precisando mudar nada.
 
 ![image](https://github.com/user-attachments/assets/00f73d89-dbe2-4465-811b-7775bacb810c)
 
+
 ## 2º Passo - Selecionar a branch do algoritmo
 
 Cada algoritmo possui uma branch. Antes de começar, selecione a branch correta clicando nesse lugar na parte inferior esquerda da interface do VS Code:
@@ -26,12 +27,13 @@ Cada algoritmo possui uma branch. Antes de começar, selecione a branch correta 
 ![image](https://github.com/user-attachments/assets/b6b393d4-2afb-4613-bf67-3699dd847fb5)
 ![image](https://github.com/user-attachments/assets/a4988f62-a430-439f-86b7-c0e25675f6d6)
 
+
 ## 3º Passo - Realização dos testes
 
 O algoritmo pode ser da internet, feito por uma IA ou adaptado do material da disciplina, só se deve ter cuidado com o nome das variáveis.
 **Ele deve ser inserido entre esses comentários, não alterando o restante do código:**
 
-![image](https://github.com/user-attachments/assets/b2ccd8d5-7f86-4fe9-ad4f-3f49bb435515)
+![image](https://github.com/user-attachments/assets/a4e3589b-b4b5-4171-b1de-679d6bcb31be)
 
 Se já tiver algum algoritmo entre eles é so apagar e colar o algoritmo certo ali.
 
@@ -42,6 +44,7 @@ Se já tiver algum algoritmo entre eles é so apagar e colar o algoritmo certo a
 No terminal após executar o algoritmo vai estar o tamanho dele e o tempo de execução. O valor do tempo de execução deve ser inserido na tabela do Excel.
 
 ![image](https://github.com/user-attachments/assets/468a1c65-c313-4a89-86a8-e96a7675fe43)
+
 
 ## 4º Passo - Finalização
 
